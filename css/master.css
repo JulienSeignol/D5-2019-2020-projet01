@@ -1,0 +1,232 @@
+html, body{
+  scroll-behavior: smooth;
+}
+
+#header {
+    min-height: 60vh;
+    margin: 0;
+    background : url('../images/neil2.jpg') center 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#footer{
+  background-color: #eeeeee;
+  position: absolute;
+  width: 100%;
+  height: 50vh;
+  right: 0vh;
+  z-index: -100;
+  text-align: center;
+  margin-top: 3%;
+}
+
+#bandeau1 {
+    min-height: 35vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background : url('../images/book.jpg') center 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#bandeau2 {
+    min-height: 35vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background : url('../images/paint.jpg') center 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#bandeau3 {
+    min-height: 35vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background : url('../images/library1.jpg') center 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#bandeau5 {
+    min-height: 35vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background : url('../images/library2.jpeg') center 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#bandeau6 {
+    min-height: 35vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background : url('../images/library3.jpg') center 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#bandeau7 {
+    min-height: 35vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background : url('../images/library4.jpg') center 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#bandeau9 {
+    min-height: 35vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background : url('../images/library5.jpg') center 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#bandeau10 {
+    min-height: 35vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background : url('../images/library6.jpg') center 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#bandeau11 {
+    min-height: 35vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background : url('../images/library7.jpg') center 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.menu {
+  Left: 0%;
+  padding: 3em;
+  position: fixed;
+  bottom: 0vh;
+  font-family: 'Montserrat';
+  line-height: 2em;
+  border-radius: 5px;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  background-color: #eeeeee;
+}
+
+li a {
+  display: block;
+  padding: 8px 16px;
+  color: #111111;
+  transition: color .2s;
+  text-decoration: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+li a:hover {
+  color: #5c9443;
+}
+
+#lienweb{
+  text-decoration: none;
+  color: #353a5c;
+}
+
+.margehaut{
+  margin-top: 1.5em;
+}
+
+#textfooter{
+  position: relative;
+  margin-top: 20px;
+}
+
+#droits{
+  margin-top: 3%;
+}
+
+
+
+@media (max-width: 1450px) {
+    .container{
+      -webkit-columns: 2 50px;
+      -moz-columns: 2 50px;
+      columns: 2 50px;
+      -webkit-column-gap: 40px;
+      -moz-column-gap: 40px;
+      column-gap: 40px;
+    }
+}
+
+
+@media (max-width: 1250px) {
+
+h1{
+  font-size: 2.5em;
+}
+
+#header {
+    min-height: 50vh;
+    margin: 0;
+    background : url('../images/neil2.jpg') center 30% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+  -webkit-columns: 1 100px;
+  -moz-columns: 1 100px;
+  columns: 1 100px;
+  -webkit-column-gap: 0px;
+  -moz-column-gap: 0px;
+  column-gap: 0px;
+}
+
+section {
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+
+.menu {
+  position: fixed;
+  top: 0vh;
+  font-family: 'Montserrat';
+  line-height: 2em;
+  border-radius: 0px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  width: 100%;
+  z-index: 1000;
+  }
+
+ul{
+  display: inline-flex;
+  height: 2vh;
+}
+
+ul li a {
+ position: relative;
+ width:140px;
+ color:black;
+ text-decoration:none;
+ padding:5px;
+  }
+
+#icon{
+  opacity: 0;
+  width: 1;em;
+}
